@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main>
+    <a class="button" href="#">
+      Личный кабинет
+    </a>
+    <main>
+
+      <div class="overlay">
+        <div class="popup">
+          <form class="form-auth" action="#">
+            <div class="title-form">
+              Личный кабинет
+            </div>
+            <div class="subtitle-form">
+              Вам будет доступна история заказов, управление рассылками, свои цены и скидки для
+              постоянных клиентов и прочее.
+            </div>
+            <div class="inputs-block">
+              <input class="form-input" name="auth-login" type="text" placeholder="Ваш логин">
+              <input class="form-input" name="auth-password" type="password" placeholder="Ваш пароль">
+              <button class="form-btn" name="form-submit" type="button">Войти в личный кабинет</button>
+            </div>
+            <div class="forgot-wrapper">
+              <a class="forgot" href="#">Забыли пароль?</a>
+            </div>
+          </form>
+          <div class="register">
+            <a class="register-link" href="#">Создать личный кабинет</a>
+          </div>
+          <div class="close-popup">
+            <span class="close-ellipse"></span>
+          </div>
+        </div>
+      </div>
+
+      <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+      <script src="script.js"></script>
+</body>
+
+</html>
